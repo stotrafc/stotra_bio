@@ -456,6 +456,8 @@ h3 a {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-size: 18px;
+  font-family: 'Spectral', serif;
   gap: 14px;            /* Modern spacing control instead of <br> tags */
 }
 
@@ -612,8 +614,9 @@ a {
   object-fit: cover;
 }
 
-.p {
+p {
   color: white;
   text-decoration-color: white;
+  font-size: 18px;
   font-family: 'Spectral', serif;
 }
