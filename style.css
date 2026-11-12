@@ -421,6 +421,7 @@ nav .nav-name {
 h2 a {
   color: bisque;
   text-decoration: underline;
+  font-family: 'Spectral', serif;
 }
 
 h3 a {
@@ -618,5 +619,11 @@ p {
   color: white;
   text-decoration-color: white;
   font-size: 18px;
+  font-family: 'Spectral', serif;
+}
+
+h2 {
+  color: white;
+  text-decoration-color: white;
   font-family: 'Spectral', serif;
 }
