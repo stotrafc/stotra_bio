@@ -627,3 +627,23 @@ h2 {
   text-decoration-color: white;
   font-family: 'Spectral', serif;
 }
+
+.block p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.pdf-link {
+  margin-left: auto; /* Pushes the icon to the right end of the block */
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.pdf-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
